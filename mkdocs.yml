@@ -1,0 +1,54 @@
+site_name: Matúšova škola programovania
+copyright: 'Copyright &copy; 2018 Jozef Fülöp'
+
+nav:
+    - Úvod: index.md
+    - Vzhľad zdrojových súborov: files.md
+    - main: main_method.md
+    - Premenné: variables.md
+    - Vypisovanie reťazcov: sysout.md
+    - Podmienky: conditions.md
+    - Cykly: cycles.md
+
+extra:
+  social:
+    - type: globe
+      link: http://www.silake.com
+    - type: github-alt
+      link: https://github.com/jofi/programmer
+    - type: twitter
+      link: https://twitter.com/jfulop
+
+theme:
+  name: material
+  language: 'en'
+  # logo: 'img/logo.svg'
+  palette:
+    primary: 'indigo'
+    accent: 'red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  # favicon: 'img/favicon.ico'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
