@@ -5,6 +5,7 @@ nav:
     - Úvod: index.md
     - Vzhľad zdrojových súborov: files.md
     - main: main_method.md
+    - Testovač: testovac.md
     - Premenné: variables.md
     - Vypisovanie reťazcov: sysout.md
     - Podmienky: conditions.md
