@@ -6,6 +6,7 @@ nav:
     - Vzhľad zdrojových súborov: files.md
     - main: main_method.md
     - Testovač: testovac.md
+    - Vstup a výstup: vstup_vystup.md
     - Premenné: variables.md
     - Vypisovanie reťazcov: sysout.md
     - Podmienky: conditions.md
