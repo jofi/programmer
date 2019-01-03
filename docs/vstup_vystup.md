@@ -4,7 +4,7 @@ Programy, ktoré budeš na začiatku programovať používajú na komunikáciu t
 
 ## Načítavanie vstupu
 
-Načítavanie je celkom jednoduché. Hore, nad všetkým načítavaním treba vložiť riadok ``` Scanner reader = new Scanner(System.in); ```. Scanner nemusíš pomenovať ``` reader ```, môžeš zvoliť aj iné meno. Nakonci, úplne po všetkom načítavaní treba vložiť riadok ``` reader.close(); ```. Samotné načítavanie je jednoduché. Ak chceš načítať ``` int ```, napíšeš ``` int vstup = reader.nextInt() ```. Ak chceš načítať ``` String ```, napíšeš ``` int vstup = reader.next() ```. Pre jednotlivé typy nájdeš spôsob načítavania v tejto tabuľke.
+Načítavanie je celkom jednoduché. Hore, nad všetkým načítavaním treba vložiť riadok ``` Scanner reader = new Scanner(System.in); ```. Scanner nemusíš pomenovať ``` reader ```, môžeš zvoliť aj iné meno. Nakonci, úplne po všetkom načítavaní treba vložiť riadok ``` reader.close(); ```. Samotné načítavanie je jednoduché. Ak chceš načítať ``` int ```, napíšeš ``` int vstup = reader.nextInt() ```. Ak chceš načítať ``` String ```, napíšeš ``` String vstup = reader.next() ```. Pre jednotlivé typy nájdeš spôsob načítavania v tejto tabuľke.
 
 | Typ premennej  |      Ako načítať? |
 |----------|-------------|
@@ -12,11 +12,11 @@ Načítavanie je celkom jednoduché. Hore, nad všetkým načítavaním treba vl
 | **long** | ` long vstup = reader.nextLong(); ` |
 | **boolean** | ` boolean vstup = reader.nextBoolean(); ` |
 | **String** | ` String vstup = reader.next(); ` |
-| **char** | `String retazec = reader.next();`
-|      |`for(int i = 0; i < retazec.size(); i++) {` |
-|      | 	`//tu mame i-ty znak vstupu` |
-|      | 	`char vstup = retazec[i];`|
-|      | `}`|
+| **char** | `String retazec = reader.next();`  |
+||`             for(int i = 0; i < retazec.size(); i++) {i`  |
+||`       	      //tu mame i-ty znak vstupu`  |
+||`             	char vstup = retazec[i];`  |
+||`             }`|
 
 Niekedy nevieš koľko vecí máš na vstupe a chceš načítávať dokým je niečo na vstupe. Tento príklad ukazuje ako to urobiť ak načítavame takto stringy:
 
@@ -33,7 +33,7 @@ class Vec {
 		System.out.println(vstup);
 	}
   }
-} 
+}
 ```
 
 Ak by si chcel načítavať `int`, spravilo by sa to pomocou `reader.hasNextInt()`. Podobne pre ostatné typy.

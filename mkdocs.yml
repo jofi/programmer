@@ -4,7 +4,7 @@ copyright: 'Copyright &copy; 2018 Jozef Fülöp'
 nav:
     - Úvod: index.md
     - Vzhľad zdrojových súborov: files.md
-    - main: main_method.md
+    - Spúšťateľné programy - main: main_method.md
     - Testovač: testovac.md
     - Vstup a výstup: vstup_vystup.md
     - Premenné: variables.md
