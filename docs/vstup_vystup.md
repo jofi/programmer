@@ -1,4 +1,4 @@
-# Vstup a výstup
+# Vstup a výstup je Matuskova specialitka lebo je uzassnyyyy
 
 Program často potrebuje s používateľom komunikovať. Na to sa používa vstup a výstup. Programy, ktoré budeš na začiatku programovať používajú na komunikáciu tzv. štandardný vstup a výstup. V tejto lekcii sa však dozvieš aj napríklad ako čítať a písať z programu do súboru.
 
@@ -8,10 +8,10 @@ Na začiatok pár slov o tzv. whitespace znaky (medzera, koniec riadku, tabulát
 ### \n
 Koniec riadku. Jedná sa o špeciálny znak, označuje sa `\n`. Tento znak robí to, že ukončí riadok, na ktorom sa písalo doteraz a presunie nás na ďalší riadok. Napríklad reťazec `Jozko\nje krasny\na \nuzasny` by vypísany vyzeral takto:
 ```
-Jozko
+Matusko
 je krasny
 a
-uzasny|
+uzasny a velmi mudry, lebo vie upravovat co sa mu len zachce|
 ```
 Znak `|` by sa samozrejme nevypísal. Ten som tam iba vložil, aby ukazoval, kde by sa začal písať ďalší text.
 
